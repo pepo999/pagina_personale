@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,700;1,300&display=swap');
+
+h1, h2, h3{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+nav{
+    font-size: medium;
+}
+body{
+    background-image: url("./assets/abstract-blue-and-white-fractal-background.jpg");
+    background-size: cover;
+    font-size: large;
+    font-family: 'Red Hat Display', sans-serif;
+}
+section{
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 10px ;
+    background: rgb(255,223,242);
+background: linear-gradient(180deg, rgba(255,223,242,1) 0%, rgba(192,255,254,0.46370023419203743) 38%, rgba(69,223,252,0) 66%);
+}
+header{
+    background-color: rgb(255, 223, 242);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(255, 223, 242);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+ p{
+    opacity: 1;
+ }
+a{
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+::marker {
+    content: "";
+  }
+
+.immagini{
+    border-style: solid;
+    border-color: rgb(194, 204, 248); 
+    border-radius: 10px;
+}
